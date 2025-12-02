@@ -35,4 +35,3 @@ public record UserDto (
         @Size(min = 1, max = 255, message = "Last name must be between 1 and 255 characters long.")
         @NonNull String lastName
 ) {}
-
